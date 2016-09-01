@@ -157,6 +157,63 @@ h3{
     margin-left: 10%;
     margin-top: -8px;
 }
+
+/*=============main-notification===========*/
+.main-notification .first{
+    background: #d9bf8f;
+}
+.main-notification .container{
+    height: 50px;
+    outline: 1px solid green;
+    width: 90%;
+    margin: 66px auto 0;
+}
+.main-notification .notification-img,
+.main-notification .notification-text{
+    outline: 1px solid red;
+    float: left;
+}
+.main-notification .notification-text{
+    outline: 1px solid blue;
+}
+
+/*===========content==========*/
+.sidebar{
+    padding: 50px 0 70px;
+    border-right: 1px solid #eaeaea;
+}
+.widget{
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.widget h3,
+.content h3{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.widget h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+.widget ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.widget ul li a{
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    display: block;
+}
+.widget ul li.more a{
+    color: #f09d66;
+}
+.content{
+    padding: 50px 0 70px;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .main-menu .navbar a.navbar-brand{
@@ -179,6 +236,11 @@ h3{
     }
     .main-menu .navbar .navbar-right li.dropdown{
         padding-left: 0;
+    }
+    .sidebar{
+        padding-bottom: 0;
+        padding-top: 0;
+        border-right: none;
     }
 }
 
@@ -205,6 +267,12 @@ h3{
     .main-menu .navbar-default .navbar-nav > li > a > img,
     .main-menu .navbar-default .navbar-nav > li.dropdown{
         margin-left: 12px;
+    }
+}
+
+@media only screen and (max-width : 563px) {
+    .sidebar .col-xs-6{
+        width: 100%;
     }
 }
 

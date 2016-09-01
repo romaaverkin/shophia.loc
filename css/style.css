@@ -50,10 +50,14 @@ h3{
     top: -1px;
     left: -14px;
 }
-.menu-carousel .item{
-    min-height: 692px;
+.menu-carousel .item img{
+    /*min-height: 692px;*/
+    margin: 0 auto;
 }
-.menu-carousel .bgslide{
+.menu-carousel .item{
+    background: #b2aca6;
+}
+/*.menu-carousel .bgslide{
     background-size: cover;
     background-position: 20% top;
     position: absolute;
@@ -61,9 +65,9 @@ h3{
     top: 0;
     width: 100%;
     height: 100%;
-}
+}*/
 .menu-carousel .carousel-caption{
-    top: 150px;
+    margin-bottom: 30px;
 }
 .menu-carousel .carousel-caption h1{
     text-transform: uppercase;
@@ -87,7 +91,7 @@ h3{
 .menu-carousel .carousel-caption .border-carousel{
     border-style: double;
     border-width: 7px;
-    padding: 5px 0 18px;
+    /*padding: 5px 0 18px;*/
     text-shadow: none;
     width: 285px;
     margin: 0 auto;
@@ -215,7 +219,7 @@ h3{
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1199px) {
     .main-menu .navbar a.navbar-brand{
         margin-left: 4%;
     }
@@ -223,7 +227,7 @@ h3{
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 991px) {
     .main-menu .navbar a.navbar-brand img{
         height: 36px;
         width: 114px;
@@ -242,10 +246,60 @@ h3{
         padding-top: 0;
         border-right: none;
     }
+    .menu-carousel .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .menu-carousel .carousel-caption h3{
+        font-size: 10px;
+    }
+    .menu-carousel .carousel-caption h2{
+        font-size: 16px;
+    }
+    .menu-carousel .carousel-caption .border-carousel{
+        border-width: 7px;
+        /*padding: 5px 0 18px;*/
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .menu-carousel .carousel-caption .btn-red{
+        padding: 11px 30px;
+        font-size: 12px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    .menu-carousel .carousel-caption .border-carousel{
+        /*width: 227px;*/
+    }
+    .menu-carousel .carousel-caption{
+        /*line-height: 10px;*/
+    }
+    .menu-carousel .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 3px;
+    }
+    .menu-carousel .carousel-caption h3{
+        font-size: 8px;
+        line-height: 3px;
+        margin: 15px;
+    }
+    .menu-carousel .carousel-caption h2{
+        font-size: 12px;
+        line-height: 3px;
+    }
+    .menu-carousel .carousel-caption .border-carousel{
+        border-width: 5px;
+        /*padding: 5px 0 18px;*/
+        width: 120px;
+        margin-bottom: 15px;
+    }
+    .menu-carousel .carousel-caption .btn-red{
+        padding: 11px 30px;
+        font-size: 7px;
+    }
 }
 
 @media only screen and (max-width : 767px) {
@@ -278,16 +332,47 @@ h3{
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    /*    .menu-carousel .carousel-caption h1{
+            font-size: 50px;
+        }
+        .menu-carousel .carousel-caption h3{
+            font-size: 17px;
+        }
+        .menu-carousel .carousel-caption h2{
+            font-size: 26px;
+        }*/
+    .menu-carousel .carousel-caption .border-carousel{
+        /*width: 227px;*/
+    }
+    .menu-carousel .carousel-caption{
+        /*line-height: 10px;*/
+        margin-bottom: 10px;
+    }
     .menu-carousel .carousel-caption h1{
-        font-size: 50px;
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 1px;
+        margin: 12px;
     }
     .menu-carousel .carousel-caption h3{
-        font-size: 17px;
+        font-size: 8px;
+        line-height: 1px;
+        margin: 10px;
     }
     .menu-carousel .carousel-caption h2{
-        font-size: 26px;
+        font-size: 10px;
+        line-height: 1px;
+        margin: 10px;
     }
     .menu-carousel .carousel-caption .border-carousel{
-        width: 227px;
+        border-width: 3px;
+        /*padding: 5px 0 18px;*/
+        width: 90px;
+        margin-bottom: 7px;
+        /*height: 40px;*/
+    }
+    .menu-carousel .carousel-caption .btn-red{
+        padding: 7px 15px;
+        font-size: 9px;
     }
 }

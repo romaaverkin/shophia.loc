@@ -222,7 +222,7 @@ h3{
     border: 1px solid #eaeaea;
     text-align: center;
     position: relative;
-    height: 520px;
+    height: 560px;
     overflow: hidden;
     transition: all .5s;
 }
@@ -231,7 +231,7 @@ h3{
 }
 .discounts{
     background: #FEAB12;
-    border-radius: 30px;
+    border-radius: 50%;
     color: #fff;
     height: 55px;
     left: 0;
@@ -264,11 +264,12 @@ h3{
     text-transform: uppercase;
 }
 .product-title{
+    padding: 0 5px;
     max-height: 40px;
     overflow: hidden;
 }
 .product-desc{
-    max-height: 60px;
+    max-height: 38px;
     overflow: hidden;
     padding: 0 10px;
 }
@@ -375,6 +376,16 @@ h3{
     .menu-carousel .carousel-caption .btn-red{
         padding: 11px 30px;
         font-size: 7px;
+    }
+    .product{
+        margin-bottom: 10px;
+    }
+    .content{
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .products-row{
+        margin: 20px 0;
     }
 }
 

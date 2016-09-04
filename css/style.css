@@ -217,7 +217,83 @@ h3{
 .content{
     padding: 50px 0 70px;
 }
-
+.product{
+    background: #fff;
+    border: 1px solid #eaeaea;
+    text-align: center;
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+    transition: all .5s;
+}
+.product:hover{
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.discounts{
+    background: #FEAB12;
+    border-radius: 30px;
+    color: #fff;
+    height: 55px;
+    left: 0;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    top: 0;
+    width: 55px;
+}
+.discounts-text{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding: 14px 3px 14px 14px;
+    margin: 0;
+}
+.discounts-percent{
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    padding-top: 20px;
+}
+.product-img{
+    /*height: 348px;*/
+    margin-bottom: 10px;
+    width: 100%;
+}
+.product-title a{
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.product-title{
+    max-height: 40px;
+    overflow: hidden;
+}
+.product-desc{
+    max-height: 60px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.product-price{
+    color: #F0975C;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px
+}
+.product-buy{
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.product-buy .btn{
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+.product-buy .btn:hover{
+    background: #F0975C;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
     .main-menu .navbar a.navbar-brand{

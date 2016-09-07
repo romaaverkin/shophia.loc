@@ -167,26 +167,65 @@ h3{
     margin-top: 66px;
 }
 .main-notification .container{
+    /*overflow: hidden;*/
     /*height: 50px;*/
     /*outline: 1px solid green;*/
     /*width: 90%;*/
     /*margin: 66px auto 0;*/
 }
-.main-notification .first{
-    background: #d9bf8f;
+.main-notification .col-sm-4{
+    height: 100px;
+}
+.main-notification .col-sm-4.first{
+    background-image: url(../img/arrow1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    z-index: 2;
+}
+.main-notification .col-sm-4.three{
+    background-image: url(../img/arrow2.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.main-notification .notification-img{
+    padding: 30px 21px 0 40px;
+}
+.main-notification .first,
+.main-notification .three{
+    /*background: #d9bf8f;*/
+}
+.main-notification .second{
+    background: #000;
+}
+.main-notification .second{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.main-notification .second img.img_arrow2{
+    position: absolute;
+    left: 0;
+}
+.main-notification .second img.img_arrow3{
+    position: absolute;
+    right: 0;
 }
 .main-notification .notification-img,
 .main-notification .notification-text{
-    /*outline: 1px solid red;*/
     float: left;
 }
 .main-notification .notification-text h2{
-    /*outline: 1px solid blue;*/
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
     color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.main-notification .notification-text h3{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-top: 0;
 }
 
 /*===========content==========*/
@@ -318,11 +357,23 @@ h3{
     .product{
         height: 450px;
     }
+    .main-notification .notification-text h2{
+        font-size: 17px;
+    }
+    .main-notification .notification-text h3{
+        font-size: 12px;
+    }
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+    .main-notification .notification-text h2{
+        font-size: 16px;
+    }
+    .main-notification .notification-text h3{
+        font-size: 12px;
+    }
     .main-menu .navbar a.navbar-brand img{
         height: 36px;
         width: 114px;
@@ -360,8 +411,35 @@ h3{
         padding: 11px 30px;
         font-size: 12px;
     }
-    .col-md-3{
+    /*    .main-notification .notification-text h2{
+            outline: 1px solid blue;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            padding-top: 5px;
+            text-transform: uppercase;
+        }
+        .main-notification .notification-text h3{
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            margin-top: 0;
+        }*/
+    .main-content .col-md-3{
         margin-left: 14px;
+    }
+    .main-notification .notification-text{
+        padding-top: 7px;
+    }
+    .main-notification .notification-img{
+        padding: 30px 7px 0 33px;
+    }
+    .main-notification .notification-text h2{
+        font-size: 13px;
+    }
+    .main-notification .notification-text h3{
+        font-size: 9px;
     }
     .content{
         padding: 50px 0 25px;
@@ -400,6 +478,20 @@ h3{
         padding: 11px 30px;
         font-size: 7px;
     }
+    .main-notification .second .clock{
+        padding-left: 15px;
+    }
+    .main-notification .notification-text h2{
+        font-size: 25px;
+    }
+    .main-notification .notification-text h3{
+        font-size: 14px;
+    }
+    .main-notification .col-sm-4.first,
+    .main-notification .col-sm-4.three{
+        background-image: none;
+        background: #d9bf8f;
+    }
     .content{
         padding-top: 20px;
         padding-bottom: 0;
@@ -429,7 +521,7 @@ h3{
     .main-menu .navbar-default .navbar-nav > li.dropdown{
         margin-left: 12px;
     }
-    .col-md-3{
+    .main-content .col-md-3{
         margin-left: 12px;
     }
     .product{
@@ -442,7 +534,7 @@ h3{
     .sidebar .col-xs-6{
         width: 100%;
     }
-    .col-md-3{
+    .main-content .col-md-3{
         margin-left: 12px;
     }
 }

@@ -197,10 +197,10 @@ h3{
 .main-notification .second{
     background: #000;
 }
-.main-notification .second{
+/*.main-notification .second{
     margin-left: -15px;
     margin-right: -15px;
-}
+}*/
 .main-notification .second img.img_arrow2{
     position: absolute;
     left: 0;
@@ -470,12 +470,12 @@ h3{
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+/*@media only screen and (max-width : 768px) {
     .menu-carousel .carousel-caption .border-carousel{
-        /*width: 227px;*/
+        width: 227px;
     }
     .menu-carousel .carousel-caption{
-        /*line-height: 10px;*/
+        line-height: 10px;
     }
     .menu-carousel .carousel-caption h1{
         text-transform: uppercase;
@@ -493,7 +493,7 @@ h3{
     }
     .menu-carousel .carousel-caption .border-carousel{
         border-width: 5px;
-        /*padding: 5px 0 18px;*/
+        padding: 5px 0 18px;
         width: 120px;
         margin-bottom: 15px;
     }
@@ -501,20 +501,20 @@ h3{
         padding: 11px 30px;
         font-size: 7px;
     }
-    .main-notification .second .clock{
-        padding-left: 15px;
-    }
+        .main-notification .second .clock{
+            padding-left: 15px;
+        }
     .main-notification .notification-text h2{
-        font-size: 25px;
+        font-size: 13px;
     }
     .main-notification .notification-text h3{
-        font-size: 14px;
+        font-size: 9px;
     }
-    .main-notification .col-sm-4.first,
-    .main-notification .col-sm-4.three{
-        background-image: none;
-        background: #d9bf8f;
-    }
+        .main-notification .col-sm-4.first,
+        .main-notification .col-sm-4.three{
+            background-image: none;
+            background: #d9bf8f;
+        }
     .content{
         padding-top: 20px;
         padding-bottom: 0;
@@ -522,7 +522,7 @@ h3{
     .sidebar{
         margin: 20px 0 0 7px;
     }
-}
+}*/
 
 @media only screen and (max-width : 767px) {
     .menu-top .navbar-default .navbar-nav > li > a:hover{
@@ -543,6 +543,11 @@ h3{
     .main-menu .navbar-default .navbar-nav > li > a > img,
     .main-menu .navbar-default .navbar-nav > li.dropdown{
         margin-left: 12px;
+    }
+    .main-notification .col-sm-4.first,
+    .main-notification .col-sm-4.three{
+        background-image: none;
+        background: #d9bf8f;
     }
     .main-content .col-md-3{
         margin-left: 12px;

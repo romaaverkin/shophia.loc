@@ -229,9 +229,29 @@ h3{
 }
 
 /*===========content==========*/
+.main-content .container .content .delimeter{
+    left: 0;
+    margin-top: 17px;
+}
+.main-content .container .content .delimeter .row .col-sm-1 img{
+    margin-top: 4px;
+}
+.main-content .container .content .delimeter .row .col-sm-3{
+    margin-top: -6px;
+}
+.main-content .container .content .delimeter .row .col-sm-4 hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #eaeaea; /* Цвет линии для остальных браузеров */
+    background-color: #eaeaea; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
+.main-content .container .content .delimeter .row .col-sm-4 h3{
+    text-align: center;
+}
 .main-content .container .content .div-products{
     border: 1px solid #eaeaea;
     padding: 0 5px;
+    margin-bottom: 50px;
 }
 .sidebar{
     padding: 50px 0 70px;
@@ -362,6 +382,9 @@ h3{
     }
     .main-notification .notification-text h3{
         font-size: 12px;
+    }
+    .main-content .container .content .delimeter .row .col-sm-4 h3{
+        font-size: 24px;
     }
 
 }

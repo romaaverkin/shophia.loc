@@ -373,6 +373,80 @@ h3{
 .my_brands{
     margin-bottom: 20px;
 }
+/*============footer=============*/
+.footer-menu .container{
+    border-bottom: 1px solid #363636;
+    padding-bottom: 70px;
+}
+.footer-menu,
+.footer-copyright{
+    background: #141414;
+    padding: 30px 0;
+}
+.footer-menu h5{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.footer-menu h5 span{
+    font-family: 'Playfair Display', serif;
+    text-transform: none;
+    padding: 0 5px;
+}
+.footer-menu .stay_connected{
+    padding-bottom: 10px;
+}
+.footer-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-menu ul li a{
+    color: #737373;
+    line-height: 32px;
+}
+.footer-menu .social-icons{
+    padding: 25px 0;
+}
+.footer-menu .social-icons a{
+    padding-right: 14px;
+}
+.footer-menu .input-group{
+    padding-top: 20px;
+}
+.footer-menu .input-group .form-control{
+    background: #141414;
+    border-color: #484848;
+}
+.footer-menu .input-group .input-group-addon{
+    background: #323030;
+    color: #fff;
+    border-color: #484848;
+}
+.footer-copyright .footer-text p{
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.footer-copyright{
+    padding: 0;
+    padding-bottom: 80px;
+}
+.footer-copyright p{
+    color: #363636;
+}
+.footer-copyright .footer-text{
+    padding-bottom: 20px;
+}
+.footer-copyright .footer-icons{
+    padding-left: 5px;
+}
+.footer-copyright .footer-icons a{
+    padding-right: 25px;
+}
+.footer-end{
+    background: #000;
+    height: 40px;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
     .main-menu .navbar a.navbar-brand{
@@ -390,7 +464,9 @@ h3{
     .main-content .container .content .delimeter .row .col-sm-4 h3{
         font-size: 24px;
     }
-
+    .footer-menu .social-icons a{
+        padding-right: 5px;
+    }
 }
 
 /* Medium Devices, Desktops */

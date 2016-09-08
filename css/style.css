@@ -369,6 +369,10 @@ h3{
 .product-buy .btn:hover{
     background: #F0975C;
 }
+/*=====my_brands===*/
+.my_brands{
+    margin-bottom: 20px;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
     .main-menu .navbar a.navbar-brand{
@@ -555,6 +559,9 @@ h3{
     .product{
         margin-bottom: 10px;
         height: 560px;
+    }
+    .my_brands img{
+        margin: 0 auto;
     }
 }
 
